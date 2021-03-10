@@ -16,8 +16,8 @@ class IndexController extends Controller
     const ADDRESS_BASE58 = 'TRbTYhq2UGjfJiSXUmrFgyKCgrxwQKPAjh';
     const FULL_NODE_API = 'http://127.0.0.1:8090';
     const SOLIDITY_NODE_API = 'http://127.0.0.1:8091';
-    //const CONTRACT = 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t';//正式服USDT
-    const CONTRACT = 'TK6eQTi2s68UgqSxizz7T7M6QyPHbrqhcd';//测试服USDT
+    const CONTRACT = 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t';//正式服USDT
+    //const CONTRACT = 'TK6eQTi2s68UgqSxizz7T7M6QyPHbrqhcd';//测试服USDT
 
 
     public function index()
