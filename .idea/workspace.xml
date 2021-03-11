@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d703a7-9979-462f-896a-cafe207dd367" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="235" column="51" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="51" />
+            <state relative-caret-position="30">
+              <caret line="88" column="45" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -73,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="143" column="51" lean-forward="true" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="51" />
+            <state relative-caret-position="300">
+              <caret line="135" column="59" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -183,12 +182,12 @@
       <updated>1615357193517</updated>
       <workItem from="1615357196004" duration="3697000" />
       <workItem from="1615412234710" duration="628000" />
-      <workItem from="1615429607037" duration="519000" />
+      <workItem from="1615429607037" duration="1405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4844000" />
+    <option name="totallyTimeSpent" value="5730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="25" width="1400" height="804" extended-state="0" />
@@ -235,15 +234,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="235" column="51" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="51" />
+        <state relative-caret-position="30">
+          <caret line="88" column="45" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="143" column="51" lean-forward="true" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="135" column="59" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
         </state>
       </provider>
     </entry>
