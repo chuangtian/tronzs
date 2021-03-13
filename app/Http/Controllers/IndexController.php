@@ -233,7 +233,7 @@ class IndexController extends Controller
     {
         //判断key
         $key=$request->input('key');
-        $platformName=$request->input('platformName');
+        $platformName=$request->input('platform');
         if($platformName){
 
         }else{
