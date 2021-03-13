@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d703a7-9979-462f-896a-cafe207dd367" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="249" column="34" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="34" />
+            <state relative-caret-position="2235">
+              <caret line="241" column="5" selection-start-line="241" selection-start-column="5" selection-end-line="241" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="135" column="59" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="59" />
+            <state relative-caret-position="165">
+              <caret line="137" column="58" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -93,7 +93,6 @@
         <option value="$PROJECT_DIR$/app/Console/Commands/Events.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/default" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/tron.sh" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$USER_HOME$/Downloads/5962/index.html" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/index.html" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/about.php" />
@@ -106,6 +105,7 @@
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/news.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/youtube.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -126,8 +126,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="25" />
+    <option name="x" value="101" />
+    <option name="y" value="185" />
     <option name="width" value="1400" />
     <option name="height" value="804" />
   </component>
@@ -208,15 +208,15 @@
       <updated>1615357193517</updated>
       <workItem from="1615357196004" duration="3697000" />
       <workItem from="1615412234710" duration="628000" />
-      <workItem from="1615429607037" duration="7178000" />
+      <workItem from="1615429607037" duration="9918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11503000" />
+    <option name="totallyTimeSpent" value="14243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="25" width="1400" height="804" extended-state="0" />
+    <frame x="101" y="185" width="1400" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
@@ -347,15 +347,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="249" column="34" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="34" />
+        <state relative-caret-position="2235">
+          <caret line="241" column="5" selection-start-line="241" selection-start-column="5" selection-end-line="241" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="135" column="59" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="59" />
+        <state relative-caret-position="165">
+          <caret line="137" column="58" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="58" />
         </state>
       </provider>
     </entry>

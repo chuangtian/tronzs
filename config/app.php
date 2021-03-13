@@ -142,7 +142,7 @@ return [
     'xgwsendAddressPrivateKey'=>"6343bda8bff321e23dc3975ec59b2d62180824177c9c686e776b3f8cfacbb830",
 
     'tsurl'=>"https://sanduser.via-int.io/trc_api",
-    'viatsurl'=>"https://sanduser.via-int.io/trc_api",
+    'viatsurl'=>"https://agent.via-int.io/trc_api",
     'xgtsurl'=>"https://sanduser.via-int.io/trc_api",
     /*
     |--------------------------------------------------------------------------
