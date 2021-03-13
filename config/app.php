@@ -132,7 +132,7 @@ return [
     'xgactivationAddressPrivateKey'=>"061e287ab259cffd3008a276778575d354f57dc4be978c9cca878a97d21732c0",
     //'companyAddress'=>"TCYiVkoq5PLnmPcY3xDdbYVfiTZVu4Ct6F",
     'companyAddress'=>"TDs5Hh2YxmW7BXnQ7vmr1UKTLfbPrdGbyz",
-    'viacompanyAddress'=>"TDs5Hh2YxmW7BXnQ7vmr1UKTLfbPrdGbyz",
+    'viacompanyAddress'=>"TTbwSNhUhBWm6qeJZYJgzytUkRji2CVLLQ",
     'xgcompanyAddress'=>"TNAnd5R2Po2ihQY3KTT2fKctXugtpsteMN",
     'wsendAddress'=>"TXq4WbMAa7J5Poxe5UH3KYPAy4Z8zKznjj",
     'viawsendAddress'=>"TNv8jzSL7GRQhYEyj3rQuWep7GHV1vPY1p",
