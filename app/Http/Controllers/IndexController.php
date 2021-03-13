@@ -14,8 +14,8 @@ class IndexController extends Controller
 {
     const ADDRESS_HEX = '41ab6500e21bc89ce32dc6e54fcc0cc9f8b27ca54b';
     const ADDRESS_BASE58 = 'TRbTYhq2UGjfJiSXUmrFgyKCgrxwQKPAjh';
-    const FULL_NODE_API = 'http://127.0.0.1:8090';
-    const SOLIDITY_NODE_API = 'http://127.0.0.1:8091';
+    const FULL_NODE_API = 'http://34.237.210.82:8090';
+    const SOLIDITY_NODE_API = 'http://34.237.210.82:8091';
     const CONTRACT = 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t';//正式服USDT
     //const CONTRACT = 'TK6eQTi2s68UgqSxizz7T7M6QyPHbrqhcd';//测试服USDT
 
@@ -291,7 +291,7 @@ class IndexController extends Controller
             Log::info($exception);
         }
         //创建交易
-        $url="http://127.0.0.1:8090/wallet/triggersmartcontract";//创建交易url
+        $url="http://34.237.210.82:8090/wallet/triggersmartcontract";//创建交易url
         $tron->setAddress($token);
         $tokendata["contract_address"]=$tron->getAddress()['hex'];
         $tron->setAddress($to);
@@ -311,13 +311,13 @@ class IndexController extends Controller
 
         //签名交易
         $arrayRe=json_decode($re,true)["transaction"];
-        $qianMingUrl="http://127.0.0.1:8090/wallet/gettransactionsign";//签名交易url
+        $qianMingUrl="http://34.237.210.82:8090/wallet/gettransactionsign";//签名交易url
         $qianMingData["transaction"]=json_encode($arrayRe);
         $qianMingData["privateKey"]=$privateKey;
         $qianMingRe=$this->postJson($qianMingUrl,json_encode($qianMingData));
 
         //发送签名交易
-        $sendQianMingUrl="http://127.0.0.1:8090/wallet/broadcasttransaction";//签名交易
+        $sendQianMingUrl="http://34.237.210.82:8090/wallet/broadcasttransaction";//签名交易
         $sendQianMingRe=$this->postJson($sendQianMingUrl,$qianMingRe);
         return json_decode($sendQianMingRe,true);
     }
@@ -514,7 +514,7 @@ class IndexController extends Controller
         $hexAddressContract=$tron->getAddress()['hex'];
         $tron->setAddress($address);
         $hexAddress=$tron->getAddress()['hex'];
-        $url="http://127.0.0.1:8090/wallet/triggersmartcontract";
+        $url="http://34.237.210.82:8090/wallet/triggersmartcontract";
         $bas["contract_address"]=$hexAddressContract;
         $bas["function_selector"]="balanceOf(address)";
         $bas["parameter"]="0000000000000000000000".$hexAddress;

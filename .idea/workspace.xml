@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d703a7-9979-462f-896a-cafe207dd367" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,24 +26,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="default" value="1" />
+          <entry key="html" value="4" />
           <entry key="log" value="1" />
-          <entry key="php" value="3" />
+          <entry key="php" value="33" />
           <entry key="sh" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="3" />
+          <entry key="HTML" value="4" />
+          <entry key="PHP" value="33" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="5" />
           <entry key="php" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="5" />
           <entry key="PHP" value="11" />
         </counts>
       </usages-collector>
@@ -52,19 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Console/Commands/Events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="70" column="53" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="88" column="45" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="45" />
+            <state relative-caret-position="210">
+              <caret line="249" column="34" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -73,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="135" column="59" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
+              <caret line="135" column="59" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -85,6 +80,8 @@
       <find>ADDRESS_HEX</find>
       <find>FULL_NODE_API</find>
       <find>wallet</find>
+      <find>0227772268</find>
+      <find>127.0.0.1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,9 +92,20 @@
       <list>
         <option value="$PROJECT_DIR$/app/Console/Commands/Events.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/default" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/tron.sh" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$USER_HOME$/Downloads/5962/index.html" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/index.html" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/about.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/cases.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/contact.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/facebook.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/fbpage.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/google.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/ig.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/news.php" />
+        <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/youtube.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
       </list>
     </option>
   </component>
@@ -118,7 +126,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
+    <option name="x" value="26" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
     <option name="height" value="804" />
@@ -138,6 +146,24 @@
             <path>
               <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
               <item name="tronzs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tronzs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tronzs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tronzs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
@@ -182,15 +208,15 @@
       <updated>1615357193517</updated>
       <workItem from="1615357196004" duration="3697000" />
       <workItem from="1615412234710" duration="628000" />
-      <workItem from="1615429607037" duration="1405000" />
+      <workItem from="1615429607037" duration="7178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5730000" />
+    <option name="totallyTimeSpent" value="11503000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="25" width="1400" height="804" extended-state="0" />
+    <frame x="26" y="25" width="1400" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
@@ -232,17 +258,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/5962/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="403" lean-forward="true" selection-start-line="403" selection-end-line="403" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/cases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="105" column="52" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/facebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/fbpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/google.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3554">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/ig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="278" selection-start-line="278" selection-end-line="278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/youtube.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="103" column="18" lean-forward="true" selection-start-line="101" selection-start-column="11" selection-end-line="103" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="88" column="45" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="249" column="34" selection-start-line="249" selection-start-column="25" selection-end-line="249" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="135" column="59" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
+          <caret line="135" column="59" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="59" />
         </state>
       </provider>
     </entry>
