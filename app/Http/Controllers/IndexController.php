@@ -118,7 +118,7 @@ class IndexController extends Controller
                 $balance=$tron->getBalance();
                 if($balance<1500000){
                     if($value->fee==0){
-                        $send=$this->send($activationAddress,$value->to,4,$activationAddressPrivateKey);
+                        $send=$this->send($activationAddress,$value->to,6,$activationAddressPrivateKey);
                         $info=DB::table('token_confirm')->where('id',$value->id)->update(array('fee'=>1));
                     }
                 }
