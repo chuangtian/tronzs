@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d703a7-9979-462f-896a-cafe207dd367" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
+            <state relative-caret-position="725">
               <caret line="558" column="44" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
               <folding>
                 <element signature="e#15106#19370#0#PHP" />
@@ -71,20 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+            <state relative-caret-position="384">
+              <caret line="141" column="97" selection-start-line="141" selection-start-column="97" selection-end-line="141" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -122,9 +119,9 @@
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/ig.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/news.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/youtube.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -213,12 +210,12 @@
       <workItem from="1615645854195" duration="1215000" />
       <workItem from="1615651090032" duration="2350000" />
       <workItem from="1615711760480" duration="371000" />
-      <workItem from="1615894400298" duration="422000" />
+      <workItem from="1615894400298" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19604000" />
+    <option name="totallyTimeSpent" value="20020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="817" extended-state="0" />
@@ -329,9 +326,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
+        <state relative-caret-position="725">
           <caret line="558" column="44" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
           <folding>
             <element signature="e#15106#19370#0#PHP" />
@@ -341,15 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="384">
+          <caret line="141" column="97" selection-start-line="141" selection-start-column="97" selection-end-line="141" selection-end-column="97" />
         </state>
       </provider>
     </entry>
