@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d703a7-9979-462f-896a-cafe207dd367" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +20,11 @@
     <session id="-592359520">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -28,38 +32,59 @@
           <entry key="default" value="1" />
           <entry key="html" value="6" />
           <entry key="log" value="1" />
-          <entry key="php" value="53" />
+          <entry key="php" value="55" />
           <entry key="sh" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="6" />
-          <entry key="PHP" value="53" />
+          <entry key="PHP" value="55" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="11" />
-          <entry key="php" value="15" />
+          <entry key="php" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="39" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1250">
+              <caret line="558" column="44" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
+              <folding>
+                <element signature="e#15106#19370#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="120" column="73" selection-start-line="120" selection-start-column="73" selection-end-line="120" selection-end-column="73" />
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -87,7 +112,6 @@
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/tron.sh" />
         <option value="$USER_HOME$/Downloads/5962/index.html" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/index.html" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/about.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/cases.php" />
@@ -98,7 +122,9 @@
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/ig.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/news.php" />
         <option value="/private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/youtube.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
   </component>
@@ -118,11 +144,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="27" />
-    <option name="y" value="96" />
-    <option name="width" value="1400" />
-    <option name="height" value="804" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="添加" />
@@ -132,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,26 +168,12 @@
             <path>
               <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
               <item name="tronzs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tronzs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tronzs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tronzs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,18 +211,20 @@
       <workItem from="1615429607037" duration="9918000" />
       <workItem from="1615644039090" duration="1003000" />
       <workItem from="1615645854195" duration="1215000" />
-      <workItem from="1615651090032" duration="1752000" />
+      <workItem from="1615651090032" duration="2350000" />
+      <workItem from="1615711760480" duration="371000" />
+      <workItem from="1615894400298" duration="422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18213000" />
+    <option name="totallyTimeSpent" value="19604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="25" width="1440" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -256,34 +270,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="134" column="60" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="367" column="37" selection-start-line="367" selection-start-column="37" selection-end-line="367" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="327" column="37" selection-start-line="327" selection-start-column="37" selection-end-line="327" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/cases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="823" column="37" selection-start-line="823" selection-start-column="37" selection-end-line="823" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/index.html" />
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/about.php" />
+    <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/cases.php" />
     <entry file="file:///private/var/folders/hp/8cs393nn15v_6xntby00gg400000gn/T/fz3temp-2/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -342,8 +331,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="558" column="44" selection-start-line="558" selection-start-column="44" selection-end-line="558" selection-end-column="44" />
+          <folding>
+            <element signature="e#15106#19370#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="120" column="73" selection-start-line="120" selection-start-column="73" selection-end-line="120" selection-end-column="73" />
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
         </state>
       </provider>
     </entry>
