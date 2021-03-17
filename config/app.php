@@ -143,8 +143,8 @@ return [
 
     'tsurl'=>"https://sanduser.via-int.io/trc_api",
     'viatsurl'=>"https://agent.via-int.io/trc_api",
-    //'xgtsurl'=>"http://xii.games/install/userapi/recharge",
-    'xgtsurl'=>"http://43.225.198.2/install/userapi/recharge",
+    'xgtsurl'=>"http://xii.games/install/userapi/recharge",
+    //'xgtsurl'=>"http://43.225.198.2/install/userapi/recharge",
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
