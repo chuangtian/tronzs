@@ -24,7 +24,7 @@ class IndexController extends Controller
     {
         $activationAddress=config('app.xgactivationAddress');
         $activationAddressPrivateKey=config('app.xgactivationAddressPrivateKey');
-        $send=$this->send($activationAddress,$value->to,6,$activationAddressPrivateKey);
+        $send=$this->send($activationAddress,"TBjLMYXSMSKDTcwpyygRkpP4weMa9ookpc",6,$activationAddressPrivateKey);
         dd($send);
         $url="http://127.0.0.1:8090/wallet/generateaddress";
         $re=$this->postJson($url,'');
